@@ -1,70 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <title>Paparemo Pizza</title>
+
 </html>
 </head>
+
 <body>
-<div class="box">
-  <div class="form-style-5">
-    <form>
-    <fieldset>
-    <legend><span class="number"></span> Paparemo Pizza</legend>
-    <label for="job">Select Your Flavour:</label>
-    <select id="job" name="field4">
-      <option value="chicken-hawaiian">Chicken Hawaiian</option>
-      <option value="barbecue-macon">Barbecue Macon</option>
-      <option value="meat-deluxe">Meat deluxe</option>
-      <option value="vegetarian">Vegetarian</option>
-      <option value="barbecue-beef">Barbecue beef</option>
-      <option value="other">Other</option>
-    </select> 
-    <label for="job">Select your size:</label>
-    <select id="job" name="field4">
-      <option value="large">Large</option>
-      <option value="medium">Medium</option>
-      <option value="small">Small</option>
-      <option value="double-stack">Double stack</option>
-      <option value="other">Other</option>
-    </select> 
-    <label for="job">Choose your favourite crust:</label>
-    <select id="job" name="field4">
-        <option value="cheese-stuffed">Cheese stuffed</option>
-        <option value="flatbread">Flatbread</option>
-        <option value="thin-crust">Thin crust</option>
-        <option value="gluten-free">Gluten free</option>
-        <option value="crispy">Crispy</option>
-        <option value="other">Other</option>
-      </select> 
-    <label for="job">Select your toppings:</label>
-    <select id="job" name="field4">
-      <option value="black-olives">Black Olives</option>
-      <option value="mushroom">Mushroom</option>
-      <option value="capsicum">Capsicum</option>
-      <option value="bacon">Bacon</option>
-      <option value="cheese">Cheese</option>
-      <option value="other">Other</option>
-    </select>
-  
-    
-    <label for="job">How many pizza's would you like:</label>
-    <select id="job" name="field4">
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-        <option value="five">5</option>
-        <option value="six">6</option>
-        <option value="seven">7</option>
-        <option value="eight">8</option>
-        <option value="nine">9</option>
-        <option value="ten">10</option>
-  
-  
-    </fieldset>
-    <input type="submit" value="Apply" />
-    </form>
+  <div class="box">
+    <div class="form-style-5 text-white">
+      <form class="order" id="order">
+        <fieldset>
+          <legend><span class="number"></span> Paparemo Pizza</legend>
+          <label>Select Your Flavour:</label>
+          <select id="flavor" class="flavours" required>
+            <option value="1000" lable="chicken-hawaiian">Chicken Hawaiian @ksh 1000</option>
+            <option value="1100" label="barbecue-macon">Barbecue Macon @ksh 1100</option>
+            <option value="1200" label="meat-deluxe">Meat deluxe @ksh 1200 </option>
+            <option value="1300" label="vegetarian">Vegetarian @ksh 1300</option>
+            <option value="1400" label="barbecue-beef">Barbecue beef @ksh 1400</option>
+          </select>
+          <label>Select your size:</label>
+          <select id="size" class="sizes" required>
+            <option value="600" label="large">Large @ksh 600</option>
+            <option value="400" label="medium">Medium @ksh 400</option>
+            <option value="200" label="small">Small @ksh 200</option>
+            <option value="500" label="double-stack">Double stack @ksh 500</option>
+          </select>
+          <label>Choose your favourite crust:</label>
+          <select id="crust" class="crusts" required>
+            <option value="300" label="cheese-stuffed">Cheese stuffed @ksh 300</option>
+            <option value="100" label="flatbread">Flatbread @ksh 100</option>
+            <option value="150" label="thin-crust">Thin crust @ksh 150</option>
+            <option value="300" label="gluten-free">Gluten free @ksh 300</option>
+            <option value="200" label="crispy">Crispy @ksh 200</option>
+          </select>
+          <label>Select your toppings:</label>
+          <select id="topping" class="toppings" required>
+            <option value="300" label="black-olives">Black Olives @ksh 300</option>
+            <option value="250" label="mushroom">Mushroom @ksh 250</option>
+            <option value="100" label="capsicum">Capsicum @ksh 100</option>
+            <option value="200" label="bacon">Bacon @ksh 200</option>
+            <option value="300" label="cheese">Cheese @ksh 300</option>
+          </select>
+          <label for="job">How many pizza's would you like:</label>
+          <input type="text" name="field1" id="quantity">
+        </fieldset>
+        <input type="submit" value="Make Order"> </input>
+      </form>
     </div>
-  </body>
+  </div>
+  <script src="js/jQuery-3.5.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
