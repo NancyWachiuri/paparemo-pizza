@@ -21,10 +21,10 @@ A web application where our customers order different sizes of pizzas with one o
 
 
 ## Setup/Installation Requirements
-git clone https://github.com/NancyWachiuri/paparemo-pizza.git
-extract the file
-cd to the studio director
-Open the index.html on your favorite browser``
+>git clone https://github.com/NancyWachiuri/paparemo-pizza.git
+>extract the file
+>cd to the studio director
+>Open the index.html on your favorite browser``
 
 ## Technologies Used
 
