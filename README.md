@@ -1,7 +1,7 @@
-##Paparemo Pizza##
-#The best in town#
+##Paparemo Pizza
+#The best in town
 
-#Description:#
+#Description:
 An Application to order and deliveer pizza.
 
 #Author:#
