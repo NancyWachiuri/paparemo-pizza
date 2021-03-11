@@ -1,6 +1,9 @@
 # Paparemo Pizza
 
-"https://coolwallpapers.me/picsup/2707180-pizza-4k-hd-image-for-wallpaper.jpg
+![pizza.png](https://user-images.githubusercontent.com/78595142/110803047-d9be6580-828f-11eb-9ea4-5232a1198683.png)
+
+
+
 
 A web application where our customers order different sizes of pizzas with one or more toppings {11th March 2021}
 
