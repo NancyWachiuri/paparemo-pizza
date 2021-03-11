@@ -1,2 +1,2 @@
-# pizza_shop
+# Paparemo Pizza
 Order different sizes of pizzas with different toppings. 
